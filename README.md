@@ -566,4 +566,8 @@ you have trained your new model on the new data.
 
 ## License
 
+## Link WANDB
+
+	link: https://wandb.ai/yuricrotti/nyc_airbnb/
+
 [License](LICENSE.txt)
