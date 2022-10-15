@@ -26,8 +26,10 @@ def go(args):
     # Drop outliers
     min_price = 10
     max_price = 350
+
     idx = df['price'].between(args.min_price, args.max_price)
     df = df[idx].copy()
+
     # Convert last_review to datetime
     df['last_review'] = pd.to_datetime(df['last_review'])
     
